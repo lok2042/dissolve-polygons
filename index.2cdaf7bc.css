@@ -1,0 +1,15 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
