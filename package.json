@@ -2,10 +2,21 @@
   "name": "dissolve-polygons",
   "version": "1.0.0",
   "description": "A utility program to dissolve a FeatureCollection of polygons with the same property value",
+  "homepage": "https://github.com.io/lok2042/dissolve-polygons",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "keywords": [
+    "leaflet",
+    "dissolve-polygons",
+    "turf.js",
+    "USA",
+    "states",
+    "counties"
+  ],
   "author": "lok2042",
   "license": "ISC",
   "dependencies": {
@@ -13,6 +24,7 @@
     "leaflet": "^1.9.4"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.13.3"
   }
 }
