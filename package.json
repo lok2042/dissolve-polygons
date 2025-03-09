@@ -1,0 +1,18 @@
+{
+  "name": "dissolve-polygons",
+  "version": "1.0.0",
+  "description": "A utility program to dissolve a FeatureCollection of polygons with the same property value",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "lok2042",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^7.2.0",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
